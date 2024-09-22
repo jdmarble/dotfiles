@@ -1,0 +1,2 @@
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$HOME/.cargo/bin:$PATH"
+export HOMEBREW_BUNDLE_FILE="$HOME/.config/homebrew/Brewfile"

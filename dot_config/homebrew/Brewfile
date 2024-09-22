@@ -1,0 +1,51 @@
+# ## General CLI Tools
+brew "chezmoi"
+# Newer version than available stock on MacOS
+brew "git"
+# Newer algorithms than available stock on MacOS
+brew "openssl@3"
+# Hash passwords in secrets generation scripts
+brew "argon2"
+brew "bitwarden-cli"
+# Set environment variables based on current working directory.
+brew "direnv"
+brew "jq"
+brew "numbat"
+brew "pre-commit"
+brew "tree"
+brew "watch"
+brew "wget"
+brew "yq"
+
+# ## Kubernetes tools
+brew "argocd"
+brew "checkov"
+# I don't normally deploy directly with Helm.
+# I sometimes use `helm template ...` to extract manifests from charts.
+brew "helm"
+# A quick way to flit around a cluster.
+brew "k9s"
+# `kubectl`
+brew "kubernetes-cli"
+# An easy way to install kubectl plugins.
+brew "krew"
+# I shouldn't be manually swapping contexts.
+# Instead, I should be using
+brew "kubectx"
+# Create and update sealed-secrets.
+brew "kubeseal"
+# The Kustomize built in to `kubectl` is missing features like Helm templates.
+brew "kustomize"
+# Talos Linux
+tap "siderolabs/tap"
+brew "siderolabs/tap/talosctl"
+# Cilium
+brew "cilium-cli"
+
+# ## Terminal Emulator
+# Nerd Font
+cask "alacritty"
+cask "font-3270-nerd-font"
+
+# ## Cloud Crap
+brew "awscli"
