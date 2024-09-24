@@ -12,7 +12,7 @@ brew "direnv"
 brew "jq"
 brew "numbat"
 brew "pre-commit"
-brew "tree"
+brew "lsd"
 brew "watch"
 brew "wget"
 brew "yq"
@@ -46,6 +46,5 @@ brew "cilium-cli"
 # Nerd Font
 cask "alacritty"
 cask "font-3270-nerd-font"
+brew "starship"
 
-# ## Cloud Crap
-brew "awscli"

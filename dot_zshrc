@@ -8,5 +8,8 @@ alias k=kubectl
 source <(kubectl completion zsh)
 compdef k='kubectl'
 
-eval "$(direnv hook zsh)"
+alias ls='lsd'
+alias tree='lsd --tree'
 
+eval "$(direnv hook zsh)"
+eval "$(starship init zsh)"
