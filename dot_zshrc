@@ -1,2 +1,12 @@
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$HOME/.cargo/bin:$PATH"
 export HOMEBREW_BUNDLE_FILE="$HOME/.config/homebrew/Brewfile"
+
+autoload -Uz compinit
+compinit
+
+alias k=kubectl
+source <(kubectl completion zsh)
+compdef k='kubectl'
+
+eval "$(direnv hook zsh)"
+
