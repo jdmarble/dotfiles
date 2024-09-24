@@ -1,6 +1,6 @@
 [font]
 normal = { family = "3270 Nerd Font Mono" }
-size = 22
+size = 21
 [window]
 decorations = "Buttonless"
 opacity = 0.9
