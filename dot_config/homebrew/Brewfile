@@ -27,6 +27,8 @@ brew "helm"
 brew "k9s"
 # `kubectl`
 brew "kubernetes-cli"
+# Colorize kubectl output
+brew "kubecolor"
 # An easy way to install kubectl plugins.
 brew "krew"
 # I shouldn't be manually swapping contexts.

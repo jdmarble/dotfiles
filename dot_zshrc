@@ -4,9 +4,9 @@ export HOMEBREW_BUNDLE_FILE="$HOME/.config/homebrew/Brewfile"
 autoload -Uz compinit
 compinit
 
-alias k=kubectl
+alias k=kubecolor
 source <(kubectl completion zsh)
-compdef k='kubectl'
+compdef kubecolor=kubectl
 
 alias ls='lsd'
 alias tree='lsd --tree'
