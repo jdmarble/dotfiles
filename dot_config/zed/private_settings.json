@@ -1,0 +1,32 @@
+{
+  "assistant": {
+    "default_model": {
+      "provider": "openai",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "autosave": "on_focus_change",
+  "buffer_font_size": 16,
+  "gutter": {
+    "line_numbers": false
+  },
+  "languages": {
+    "YAML": {
+      "format_on_save": "off"
+    }
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "terminal": {
+    "font_family": "3270 Nerd Font Mono"
+  },
+  "theme": "Atelier Seaside Dark",
+  "ui_font_size": 16,
+  "vim_mode": true
+}

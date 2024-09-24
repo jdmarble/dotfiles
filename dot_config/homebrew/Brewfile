@@ -48,3 +48,5 @@ cask "alacritty"
 cask "font-3270-nerd-font"
 brew "starship"
 
+# ## Editor
+cask "zed"
