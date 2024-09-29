@@ -16,6 +16,7 @@ brew "lsd"
 brew "watch"
 brew "wget"
 brew "yq"
+brew "zsh"
 brew "zsh-autosuggestions"
 
 # ## Kubernetes tools
