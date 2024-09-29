@@ -25,7 +25,8 @@
     "metrics": false
   },
   "terminal": {
-    "font_family": "3270 Nerd Font Mono"
+    "font_family": "3270 Nerd Font Mono",
+    "line_height": "standard"
   },
   "theme": "Atelier Seaside Dark",
   "ui_font_size": 16,
