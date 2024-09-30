@@ -12,6 +12,7 @@
   "autosave": "on_focus_change",
   "buffer_font_size": 16,
   "buffer_font_family": "3270 Nerd Font Mono",
+  "buffer_line_height": "standard",
   "gutter": {
     "line_numbers": false
   },
