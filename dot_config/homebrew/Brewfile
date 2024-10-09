@@ -2,10 +2,6 @@
 brew "chezmoi"
 # Newer version than available stock on MacOS
 brew "git"
-# Newer algorithms than available stock on MacOS
-brew "openssl@3"
-# Hash passwords in secrets generation scripts
-brew "argon2"
 brew "bitwarden-cli"
 # Set environment variables based on current working directory.
 brew "direnv"
@@ -15,9 +11,18 @@ brew "pre-commit"
 brew "lsd"
 brew "watch"
 brew "wget"
+brew "xsv"
 brew "yq"
 brew "zsh"
 brew "zsh-autosuggestions"
+
+# Things that should probably be installed just for specific projects
+# Hash passwords in secrets generation scripts
+brew "argon2"
+brew "ansible"
+brew "just"
+# Newer algorithms than available stock on MacOS
+brew "openssl@3"
 
 # ## Kubernetes tools
 brew "argocd"
