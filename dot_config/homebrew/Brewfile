@@ -1,4 +1,5 @@
 # ## General CLI Tools
+brew "atuin"
 brew "chezmoi"
 # Newer version than available stock on MacOS
 brew "git"
