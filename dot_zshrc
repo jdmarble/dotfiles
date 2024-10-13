@@ -1,11 +1,4 @@
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$HOME/.cargo/bin:$PATH"
-export HOMEBREW_BUNDLE_FILE="$HOME/.config/homebrew/Brewfile"
-
 eval "$(devbox global shellenv)"
-
-# Init Homebrew, which adds environment variables
-eval "$(brew shellenv)"
-fpath=($HOMEBREW_PREFIX/share/zsh/site-functions $fpath)
 
 autoload -Uz compinit
 compinit
@@ -19,5 +12,4 @@ alias tree='lsd --tree'
 
 eval "$(direnv hook zsh)"
 eval "$(starship init zsh)"
-source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-eval "$(atuin init zsh)"
+eval "$(atuin init zsh --disable-up-arrow)"
