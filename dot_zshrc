@@ -1,6 +1,8 @@
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$HOME/.cargo/bin:$PATH"
 export HOMEBREW_BUNDLE_FILE="$HOME/.config/homebrew/Brewfile"
 
+eval "$(devbox global shellenv)"
+
 # Init Homebrew, which adds environment variables
 eval "$(brew shellenv)"
 fpath=($HOMEBREW_PREFIX/share/zsh/site-functions $fpath)
