@@ -1,6 +1,27 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.13.4/.schema/devbox.schema.json",
-  "packages": ["cyme@latest"],
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.13.4/.schema/devbox.schema.json",
+  "packages": [
+    "cyme@latest",
+    "chezmoi@latest",
+    "atuin@latest",
+    "bitwarden-cli@latest",
+    "direnv@latest",
+    "jq@latest",
+    "numbat@latest",
+    "pre-commit@latest",
+    "lsd@latest",
+    "watch@latest",
+    "wget@latest",
+    "yq@latest",
+    "zsh@latest",
+    "kubectl@latest",
+    "kubecolor@latest",
+    "k9s@latest",
+    "zed-editor@latest",
+    "starship@latest",
+    "nerdfonts@latest",
+    "mdcat@latest"
+  ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"

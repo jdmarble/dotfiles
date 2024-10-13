@@ -1,0 +1,6 @@
+# Switch to devbox managed zsh if available and the login shell is bash
+# This is to avoid having to add something in $HOME to /etc/shells
+eval "$(devbox global shellenv)"
+if [[ -t 1 && -x `which zsh` ]]; then
+    exec `which zsh`
+fi

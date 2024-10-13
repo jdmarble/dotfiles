@@ -1,13 +1,13 @@
 # dotfiles
 
-My dotfiles managed by chezmoi
+My dotfiles managed by chezmoi.
 
 ## Installation
 
-[Install homebrew](https://brew.sh/).
+[Install nix](https://github.com/DeterminateSystems/nix-installer),
+then use it to clone and apply the configuration:
 
 ```sh
-brew install chezmoi
-chezmoi init https://github.com/jdmarble/dotfiles.git
-chezmoi apply
+nix run nixpkgs#chezmoi -- init https://github.com/jdmarble/dotfiles.git
+nix run nixpkgs#chezmoi -- apply
 ```
