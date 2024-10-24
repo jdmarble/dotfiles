@@ -4,10 +4,8 @@
     "cyme@latest",
     "chezmoi@latest",
     "atuin@latest",
-    "bitwarden-cli@latest",
     "direnv@latest",
     "jq@latest",
-    "numbat@latest",
     "pre-commit@latest",
     "lsd@latest",
     "watch@latest",
@@ -17,19 +15,13 @@
     "kubectl@latest",
     "kubecolor@latest",
     "k9s@latest",
-    "zed-editor@latest",
     "starship@latest",
-    "nerdfonts@latest",
     "mdcat@latest"
   ],
   "shell": {
-    "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
-    ],
+    "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
     "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
-      ]
+      "test": ["echo \"Error: no test specified\" && exit 1"]
     }
   }
 }
