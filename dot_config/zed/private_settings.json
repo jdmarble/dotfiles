@@ -17,6 +17,9 @@
     "line_numbers": false
   },
   "languages": {
+    "JSON": {
+      "format_on_save": "off"
+    },
     "YAML": {
       "format_on_save": "off"
     }
