@@ -24,6 +24,11 @@
       "format_on_save": "off"
     }
   },
+  "lsp": {
+    "rust-analyze": {
+      "binary": { "path_lookup": true }
+    }
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
