@@ -16,7 +16,9 @@
     "kubecolor@latest",
     "k9s@latest",
     "starship@latest",
-    "mdcat@latest"
+    "mdcat@latest",
+    "github-cli@latest",
+    "nmap@latest"
   ],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],

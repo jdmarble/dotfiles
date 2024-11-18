@@ -1,6 +1,6 @@
 {{- if eq .chezmoi.os "darwin" -}}
 #!/bin/bash
 # Brewfile hash: {{ include "dot_config/homebrew/Brewfile" | sha256sum }}
-brew bundle --no-lock
-brew bundle cleanup --force
+brew bundle --no-lock --file=~/.config/homebrew/Brewfile
+brew bundle cleanup --force --file=~/.config/homebrew/Brewfile
 {{ end -}}
