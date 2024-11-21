@@ -1,4 +1,4 @@
 #!/bin/bash
-nix profile install github:jetify-com/devbox/0.13.6
+nix profile install nixpkgs#devbox
 # devbox global hash: {{ include "dot_local/share/devbox/global/default/devbox.json" | sha256sum }}
 eval "$(devbox global shellenv --preserve-path-stack -r)" && hash -r
