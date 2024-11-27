@@ -4,6 +4,8 @@ My dotfiles managed by chezmoi.
 
 ## Installation
 
+[Install homebrew](https://brew.sh) if not provided by your distribution already.
+
 [Install nix](https://github.com/DeterminateSystems/nix-installer),
 then use it to clone and apply the configuration:
 
