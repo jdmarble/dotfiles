@@ -4,7 +4,12 @@ My dotfiles managed by chezmoi.
 
 ## Installation
 
-[Install homebrew](https://brew.sh) if not provided by your distribution already.
+### macOS
+
+* Sign in to the App Store.
+* [Install homebrew](https://brew.sh).
+
+### Common
 
 [Install nix](https://github.com/DeterminateSystems/nix-installer),
 then use it to clone and apply the configuration:
