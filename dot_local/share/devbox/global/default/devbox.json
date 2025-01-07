@@ -19,7 +19,8 @@
     "mdcat@latest",
     "github-cli@latest",
     "nmap@latest",
-    "numbat@1.12.0"
+    "numbat@1.12.0",
+    "lazygit@latest"
   ],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
