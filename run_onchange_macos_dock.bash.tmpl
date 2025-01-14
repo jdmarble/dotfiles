@@ -1,0 +1,18 @@
+{{- if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+# See https://macos-defaults.com for documentation.
+
+# Start from a fresh state.
+defaults delete com.apple.dock
+
+# Autohide the Dock when the mouse is out
+defaults write com.apple.dock "autohide" -bool "true"
+
+# Dockutil installed with brew
+# Remove all of the defaults.
+dockutil --remove all --no-restart
+
+# Restart the dock to apply settings.
+killall Dock
+
+{{ end -}}
