@@ -6,6 +6,7 @@ mas "Foodnoms - Nutrition Tracker", id: 1479461686
 mas "Kagi for Safari", id: 1622835804
 mas "ZSA Keymapp", id: 6472865291
 
+brew "defaultbrowser"
 brew "dockutil"
 
 cask "balenaetcher"
@@ -13,6 +14,7 @@ cask "chromium"
 cask "discord"
 cask "font-3270-nerd-font"
 cask "logseq"
+cask "orion"
 cask "podman-desktop"
 cask "raycast"
 cask "rio"
