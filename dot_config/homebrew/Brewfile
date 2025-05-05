@@ -8,6 +8,7 @@ mas "ZSA Keymapp", id: 6472865291
 
 brew "defaultbrowser"
 brew "dockutil"
+brew "git-lfs"
 
 cask "balenaetcher"
 cask "chromium"
