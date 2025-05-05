@@ -1,9 +1,4 @@
 brew "mas"
-mas "AdGuard for Safari", id: 1440147259
-mas "Bitwarden", id: 1352778147
-mas "Flow - Focus & Pomodoro Timer", id: 1423210932
-mas "Foodnoms - Nutrition Tracker", id: 1479461686
-mas "Kagi for Safari", id: 1622835804
 mas "ZSA Keymapp", id: 6472865291
 
 brew "defaultbrowser"
