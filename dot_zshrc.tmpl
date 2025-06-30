@@ -1,10 +1,15 @@
-# These should already be set on Linux.
-# Here for MacOS.
+{{- if eq .chezmoi.os "darwin" -}}
+# These are not set by default on macOS.
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 
+# Install cask apps to a place that is accessible without admin privileges
+export HOMEBREW_CASK_OPTS="--appdir=$HOME/Applications"
+{{ end -}}
+
+eval "$(~/homebrew/bin/brew shellenv)"
 eval "$(devbox global shellenv)"
 
 autoload -Uz compinit

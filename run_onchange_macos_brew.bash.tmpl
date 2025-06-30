@@ -4,7 +4,7 @@
 brew analytics off
 brew bundle --file=~/.config/homebrew/Brewfile
 brew bundle cleanup --force --file=~/.config/homebrew/Brewfile
-xattr -d com.apple.quarantine /Applications/* || true
+xattr -d com.apple.quarantine $HOME/Applications/* || true
 
 # Set default web browser to Orion
 defaultbrowser kagimacos
