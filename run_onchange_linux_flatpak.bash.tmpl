@@ -1,0 +1,5 @@
+{{- if eq .chezmoi.os "linux" -}}
+#!/bin/bash
+# Flatpakfile hash: {{ include "dot_config/Flatpakfile" | sha256sum }}
+xargs /usr/bin/flatpak install --assumeyes < ~/.config/Flatpakfile
+{{- end }}

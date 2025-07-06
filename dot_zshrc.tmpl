@@ -7,9 +7,9 @@ export XDG_STATE_HOME="$HOME/.local/state"
 
 # Install cask apps to a place that is accessible without admin privileges
 export HOMEBREW_CASK_OPTS="--appdir=$HOME/Applications"
+eval "$(~/homebrew/bin/brew shellenv)"
 {{ end -}}
 
-eval "$(~/homebrew/bin/brew shellenv)"
 eval "$(devbox global shellenv)"
 
 autoload -Uz compinit
