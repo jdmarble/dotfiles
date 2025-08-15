@@ -20,7 +20,9 @@
     "github-cli@latest",
     "nmap@latest",
     "numbat@1.12.0",
-    "lazygit@latest"
+    "lazygit@latest",
+    "jujutsu@latest",
+    "git@latest"
   ],
   "shell": {
     "init_hook": ["echo 'Welcome to devbox!' > /dev/null"],
