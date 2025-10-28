@@ -2,9 +2,6 @@ confirm-before-quit = false
 padding-x = 5
 padding-y = [5, 5]
 
-[window]
-decorations = "Disabled"
-
 [renderer]
 # filters = []
 
@@ -14,3 +11,4 @@ use-kitty-keyboard-protocol = true
 [fonts]
 family = "3270 Nerd Font Mono"
 size = 21
+
