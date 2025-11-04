@@ -17,9 +17,8 @@ input {
 }
 
 output "DP-3" {
-    mode "5120x2160@120.000"
+    mode "5120x2160@30.000"
     scale 1.25
-    variable-refresh-rate
 }
 
 layout {
